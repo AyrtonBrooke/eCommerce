@@ -1,0 +1,23 @@
+{
+  "hash": "688c15e5",
+  "browserHash": "abac3e85",
+  "optimized": {
+    "bootstrap": {
+      "src": "../../node_modules/bootstrap/dist/js/bootstrap.esm.js",
+      "file": "bootstrap.js",
+      "fileHash": "dd16d73a",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "8e75ebef",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-JC4IRQUL": {
+      "file": "chunk-JC4IRQUL.js"
+    }
+  }
+}
