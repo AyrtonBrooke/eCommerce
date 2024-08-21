@@ -6,7 +6,7 @@
             <div class="col-md-12">
 
                 <div class="card">
-                    <div class="card-header">Cart
+                    <div class="card-header">cart
                         <div class="custom-control custom-switch" style="float: right;">
                             <span class="delivery-label" onclick="toggleDeliveryOption('collection')" id="collectionOption">Collection</span>
                             <span class="delivery-label" onclick="toggleDeliveryOption('delivery')" id="deliveryOption">Delivery</span>
