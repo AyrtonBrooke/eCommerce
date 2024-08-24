@@ -24,7 +24,7 @@
                                         <button type="submit" class="btn btn-primary btn-block text-center" id="addButton">Add</button>
                                         <a href="{{ route('user.order') }}" class="btn btn-success">Checkout</a>
                                     </div>
-                                @if (session('message'))
+                                    @if (session('message'))
                                         <div class="alert alert-success" role="alert">
                                             {{ session('message') }}
                                         </div>
@@ -71,8 +71,6 @@
             const selectedOption = selectElement.value;
             updatePrice(selectedOption);
 
-            // ...
-            // ...
             function updatePrice(selectedOption) {
                 // Use conditional statements to update the price based on the selected option
                 let priceValue = 0; // Initialize price value as a number
@@ -92,10 +90,6 @@
                 const pizzaPriceInput = document.getElementById('pizzaPrice');
                 pizzaPriceInput.value = priceValue;
             }
-// ...
-
-// ...
-
         });
     </script>
     <style>

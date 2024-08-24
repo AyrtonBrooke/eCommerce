@@ -41,7 +41,6 @@
                                 <p>no pizzas to show</p>
                             @endforelse
                         </div>
-
                     </div>
                 </div>
             </div>
